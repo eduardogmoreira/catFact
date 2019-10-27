@@ -1,0 +1,19 @@
+/* section styles */
+
+#demo-table > class {
+  class: "table table-striped";
+  }
+
+/* header */
+#demo-table > thead > tr:first-child > th {
+  scope: "col";
+  }
+
+#demo-table > thead > tr + tr > th {
+  scope: "col";
+  }
+
+/* body */
+#demo-table th {
+  scope: "row";
+  }
